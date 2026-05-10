@@ -91,7 +91,7 @@ class Mnistreader:
 
 '''
 DEMO
-'''
+
 d_path = 'DATA/train-images.idx3-ubyte'
 l_path = 'DATA/train-labels.idx1-ubyte'
 
@@ -127,3 +127,4 @@ for i in range(columns*rows):
     plt.imshow(img, cmap='binary')
 
 plt.show()
+'''
